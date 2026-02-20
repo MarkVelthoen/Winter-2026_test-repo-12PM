@@ -1,0 +1,17 @@
+---
+title: "Workshop - test - repo"
+author: "Mark Velthoen"
+date: "Feb 20th, 2026"
+format: html
+editor: visual
+---
+
+# Set Up Chunk
+
+```{r}
+#| message: false
+library(tidyverse)
+library(lterdatasampler)
+
+data(pie_crab)
+```
