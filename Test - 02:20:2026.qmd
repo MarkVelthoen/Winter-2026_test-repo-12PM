@@ -19,8 +19,9 @@ data(pie_crab)
 # New section: Exploratory visualization
 
 ```{r}
-ggplot(data = pie_crab,
+ggplot(data = pie_crab, #annotate
        aes(x = latitude,
-           y = size)) + 
-  
+           y = size)) +
+  geom_point() +
+  theme_minimal()
 ```
